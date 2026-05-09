@@ -46,13 +46,13 @@ Available Arguments:
 🛡 Mitigation & Security (The "Defense" Side)
 Through developing and testing this tool on my own infrastructure (familycook.kz), I've identified key defense mechanisms to prevent service disruption:
 
-  1.Rate Limiting: Configure Nginx/Apache to limit requests per second from a single IP (e.g., using limit_req in Nginx).
+  1. Rate Limiting: Configure Nginx/Apache to limit requests per second from a single IP (e.g., using limit_req in Nginx).
 
-  2.Web Application Firewall (WAF): Implementing solutions like Cloudflare to filter anomalous traffic patterns.
+  2. Web Application Firewall (WAF): Implementing solutions like Cloudflare to filter anomalous traffic patterns.
 
-  3.Fail2Ban: Automatically banning IP addresses that generate excessive 404 errors or rapid connection attempts.
+  3. Fail2Ban: Automatically banning IP addresses that generate excessive 404 errors or rapid connection attempts.
 
 
 Shutterstock
 ⚠️ Disclaimer
-This tool is for educational and ethical testing purposes only. It was created to help developers and security students understand load balancing and DDoS mitigation. Using this tool against targets you do not own or have explicit permission to test is illegal and unethical.
+**This tool is for educational and ethical testing purposes only. It was created to help developers and security students understand load balancing and DDoS mitigation. Using this tool against targets you do not own or have explicit permission to test is illegal and unethical.**
