@@ -54,5 +54,6 @@ Through developing and testing this tool on my own infrastructure (familycook.kz
 
 
 Shutterstock
+
 ⚠️ Disclaimer
 **This tool is for educational and ethical testing purposes only. It was created to help developers and security students understand load balancing and DDoS mitigation. Using this tool against targets you do not own or have explicit permission to test is illegal and unethical.**
