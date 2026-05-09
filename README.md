@@ -35,13 +35,13 @@ Basic Command:
 
 Available Arguments:
 
-**url — The target URL (Required).
+**url — The target URL (Required).**
 
--c, --concurrent — Number of simultaneous connections (Default: 100).
+**-c, --concurrent — Number of simultaneous connections (Default: 100).**
 
--n, --number — Total number of requests to send (Default: 1000).
+**-n, --number — Total number of requests to send (Default: 1000).**
 
--v, --verbose — Enables real-time logging for every 100th request.**
+**-v, --verbose — Enables real-time logging for every 100th request.**
 
 🛡 Mitigation & Security (The "Defense" Side)
 Through developing and testing this tool on my own infrastructure (familycook.kz), I've identified key defense mechanisms to prevent service disruption:
