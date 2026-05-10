@@ -1,5 +1,5 @@
-**Async Web Stress Tester**
-A professional-grade Python tool designed for web server stress testing and load analysis. Built with asyncio and aiohttp, it allows for high-concurrency request simulation to test the resilience of web infrastructures.
+**🚀 Async Web Stress Tester (CLI)**
+A high-performance Python tool designed to evaluate web server resilience under high-concurrency conditions. Built using asyncio and aiohttp, it simulates multiple simultaneous users to help developers identify infrastructure bottlenecks.
 
 📖 How It Works
 Unlike traditional synchronous scripts that send requests one by one, this tool utilizes 
@@ -20,6 +20,7 @@ Unlike traditional synchronous scripts that send requests one by one, this tool 
 2. Installation
   Clone the repository and install the necessary dependencies:
 ```
+Bash
   git clone https://github.com/YOUR_USERNAME/web-stress-tester.git
   cd web-stress-tester
   pip install aiohttp
@@ -30,6 +31,7 @@ The script is a fully functional Command Line Interface (CLI) tool. You can adju
 
 Basic Command:
 ```
+Bash
   python stress_test.py https://your-target-website.kz/ -c 200 -n 5000 -v
 ```
 
